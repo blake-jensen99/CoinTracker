@@ -10,8 +10,17 @@ import IL from "./Components/I-L";
 import MP from "./Components/M-P";
 import QT from "./Components/Q-T";
 import UZ from "./Components/U-Z";
+import { useEffect } from "react";
+
+
+
 
 function App() {
+  
+  useEffect(() => {
+    document.title = "CoinTracker"
+  }, [])
+  
   return (
   <div style={{backgroundColor: "rgb(11, 11, 11)"}}>
       <Routes>
