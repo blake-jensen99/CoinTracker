@@ -1,0 +1,15 @@
+.main{
+    /* display: flex; */
+    /* justify-content: left; */
+    gap: 200px;
+    /* margin-left: 100px; */
+    background-color: transparent; 
+
+}
+
+.flex1 {
+    background-color: transparent; 
+    margin-left: 100px;
+}
+
+
